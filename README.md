@@ -153,11 +153,11 @@ https://github.com/user-attachments/assets/
    
 ## 👥 Equipe:
 
-   ### ![Static Badge](https://img.shields.io/badge/Dev_Team-brightgreen) - Arthur Silva: 
+   ### ![Static Badge](https://img.shields.io/badge/Product_Owner-219ebc) - Arthur Silva: 
    [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://br.linkedin.com/in/arthur-sousa-3287391b1)
    [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/Meowo2)
 
-   ### ![Static Badge](https://img.shields.io/badge/Dev_Team-brightgreen) - Jaqueline Silva : 
+   ### ![Static Badge](https://img.shields.io/badge/Scrum_Master-red) - Jaqueline Silva : 
    [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](
    https://www.linkedin.com/in/jaqueline-maria-fran%C3%A7a-veloso-silva/)
    [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/jaquemfvs)
@@ -168,7 +168,7 @@ https://github.com/user-attachments/assets/
    [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/joao-eduardo17)
 
 
-   ###  ![Static Badge](https://img.shields.io/badge/Product_Owner-219ebc) - Markos Nunes : 
+   ###  ![Static Badge](https://img.shields.io/badge/Dev_Team-brightgreen) - Markos Nunes : 
    [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://linkedin.com/in/markos-vinícius-nunes-230448268)
    [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/MarkVN2)
    [<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/markos_vn2)
@@ -179,7 +179,7 @@ https://github.com/user-attachments/assets/
    [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/Sandro-Pimentel)
    
 
-   ### ![Static Badge](https://img.shields.io/badge/Scrum_Master-red) - Vinícius Forcato : 
+   ### ![Static Badge](https://img.shields.io/badge/Dev_Team-brightgreen) - Vinícius Forcato : 
    [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/vinícius-felipe-forcato-789462268)
    [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/nininhosam)
    [<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/nao_sou_felps)
