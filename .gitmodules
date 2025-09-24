@@ -1,0 +1,9 @@
+[submodule "AIService_Junipy"]
+	path = AIService_Junipy
+	url = https://github.com/Byte-Boost/AIService_Junipy
+[submodule "Frontend_Junipy"]
+	path = Frontend_Junipy
+	url = https://github.com/Byte-Boost/Frontend_Junipy
+[submodule "Backend_Junipy"]
+	path = Backend_Junipy
+	url = https://github.com/Byte-Boost/Backend_Junipy
