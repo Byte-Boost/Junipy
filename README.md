@@ -1,4 +1,4 @@
-<h1 align="center">Junipy 🤖 </h1>
+<h1 align="center">Junipy </h1>
    <!-- 
    <p align="center">
    <image alt="header-main" src=""/>
@@ -13,7 +13,9 @@
      <a href ="#backlog--entregas">Backlog/Entregas</a>  |
      <a href ="#requisitos">Requisitos</a>  |
      <a href ="#tecnologias">Tecnologias</a>  |
+     <!--
      <a href ="#como-usar">Como usar</a>   |
+     -->
      <a href ="#equipe">Equipe</a>
    </p>
 
@@ -94,11 +96,12 @@ A visão do projeto é ser uma aplicação web inovadora em nutrição digital, 
 </details>
 -->
 
+<!--  
+
 ## 🎥 Video Apresentação
 
 <details>
  <summary>Sprints</summary>
-<!--  
 ## Sprint 1   
 https://github.com/user-attachments/assets/
 ## Sprint 2
@@ -107,8 +110,8 @@ https://github.com/user-attachments/assets/
 https://github.com/user-attachments/assets/
 ## Sprint 4
 https://github.com/user-attachments/assets/
--->
 </details>
+-->
 
    
 <span id="requisitos">
@@ -138,10 +141,10 @@ https://github.com/user-attachments/assets/
     <img src="https://skillicons.dev/icons?i=vscode,github,git&perline=4">
   </a>
 
-  
+
+<!--    
 <span id="como-usar">
 
-   
 ## Como utilizar
 
 #### Backend
