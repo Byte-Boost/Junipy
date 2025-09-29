@@ -127,28 +127,27 @@ https://github.com/user-attachments/assets/
 <span id="tecnologias">
    
 ## 🖥️Tecnologias:
-<!--
    <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,nodejs,react,tailwind,mysql,express,sequelize&perline=3">
+    <img src="https://skillicons.dev/icons?i=python,fastapi,mysql,java,spring,mongodb,maven,docker,vue,vite,typescript,axios&perline=4">
    </a>
--->
    
 <span id="ferramentas">
 
 ## 🛠️ Ferramentas:
-<!--
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=vscode,github,postman,androidstudio,&perline=5">
+    <img src="https://skillicons.dev/icons?i=vscode,github,git&perline=4">
   </a>
-  -->
+
+  
 <span id="como-usar">
+
    
 ## Como utilizar
 
 #### Backend
 
 #### Frontend
-
+-->
 <span id="equipe">
    
 ## 👥 Equipe:
