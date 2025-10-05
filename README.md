@@ -91,7 +91,7 @@ Abaixo você encontra os links para cada documentação detalhada:
 | Sprint 1 | 08/09 - 28/09 | [Acessar Documentação](documentation/sprint1/sprint1doc.md) |
 | Sprint 2 | 06/10 - 26/10 | [Acessar Documentação](documentation/sprint2/sprint2doc.md) |
 
-
+<!--
 ## 🎥 Video Apresentação
 
 <details>
