@@ -14,9 +14,7 @@
      <a href ="#dod">DoD</a>  |
      <a href ="#video">Video Apresentação</a>  |
      <a href ="#requisitos">Requisitos</a>  |
-     <a href ="#tecnologias">Tecnologias</a>  |
-     <a href ="#como-usar">Como usar</a>   |
-     <a href ="#equipe">Equipe</a>
+     <a href ="#tecnologias">Tecnologias</a>
    </p>
 
 
@@ -48,7 +46,7 @@ Essas entregas têm como objetivo oferecer uma experiência personalizada, prát
    
 | ID     | Prioridade | Descrição                                                                                                                                                                                                                                                                       | Pontos | Sprint   | Meta da Sprint |
 |--------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|----------|----------------|
-| US-04  | Alta       | Como paciente, quero selecionar entre diferentes agentes de IA especializados em Análise Nutricional, Recomendação de Dieta e Conformidade e Ética, onde cada agente utiliza diferentes bases de dados nutricionais, para receber respostas direcionadas e adequadas ao meu contexto. | 8      | Sprint 2 | ✔️             |
+| US-04  | Alta       | Como paciente, quero selecionar entre diferentes agentes de IA especializados em Análise Nutricional e Recomendação de Dieta, onde cada agente utiliza diferentes bases de dados nutricionais, para receber respostas direcionadas e adequadas ao meu contexto. | 8      | Sprint 2 | ✔️             |
 | US-05  | Alta       | Como paciente, quero que a IA mantenha o contexto das minhas conversas anteriores, para que eu não precise repetir informações sempre que interajo com o chat.                                                                                                                     | 8      | Sprint 2 | ✔️             |
 | US-06  | Média      | Como paciente, quero visualizar, editar ou solicitar novas versões das minhas dietas semanais, para que eu tenha controle total sobre meu plano alimentar e possa ajustá-lo caso não esteja satisfeito ou prefira outras opções.                                                    | 5      | Sprint 2 | ✔️             |
 | US-07  | Média      | Como paciente, quero poder enviar as dietas geradas pela IA para um nutricionista, para garantir que meu plano alimentar seja seguro, adequado às minhas necessidades.                                                                                                              | 5      | Sprint 2 | ❌             |
@@ -109,62 +107,7 @@ Essas entregas têm como objetivo oferecer uma experiência personalizada, prát
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=vscode,github,git&perline=4">
   </a>
-  
-<span id="como-usar">
 
-## Como utilizar
-
-#### Backend
-
-#### Frontend
-
-<span id="equipe">
-   
-## 👥 Equipe:
-
-   ### ![Static Badge](https://img.shields.io/badge/Product_Owner-219ebc) - Arthur Silva: 
-   [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://br.linkedin.com/in/arthur-sousa-3287391b1)
-   [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/Meowo2)
-
-   ### ![Static Badge](https://img.shields.io/badge/Scrum_Master-red) - Jaqueline Silva : 
-   [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](
-   https://www.linkedin.com/in/jaqueline-maria-fran%C3%A7a-veloso-silva/)
-   [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/jaquemfvs)
-
-
-   ### ![Static Badge](https://img.shields.io/badge/Dev_Team-brightgreen) - João Eduardo Messias : 
-   [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/jo%C3%A3o-eduardo-messias-a3019125b/)
-   [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/joao-eduardo17)
-
-
-   ###  ![Static Badge](https://img.shields.io/badge/Dev_Team-brightgreen) - Markos Nunes : 
-   [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://linkedin.com/in/markos-vinícius-nunes-230448268)
-   [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/MarkVN2)
-   [<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/markos_vn2)
-
-
-   ### ![Static Badge](https://img.shields.io/badge/Dev_Team-brightgreen) - Sandro Pimentel : 
-   [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/sandro-roberto-pimentel-junior-1287a3254/)
-   [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/Sandro-Pimentel)
-   
-
-   ### ![Static Badge](https://img.shields.io/badge/Dev_Team-brightgreen) - Vinícius Forcato : 
-   [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/vinícius-felipe-forcato-789462268)
-   [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/nininhosam)
-   [<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/nao_sou_felps)
-
-  
-   ### ![Static Badge](https://img.shields.io/badge/Dev_Team-brightgreen) - Vitor Saborito : 
-   [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://br.linkedin.com/in/vitor-henrique-saborito-216219268)
-   [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/VituuSaborito )
-
-
-   ### ![Static Badge](https://img.shields.io/badge/Dev_Team-brightgreen) - Isabel Vitoria : 
-   [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/IsabelRReis)
-
-
-   ### ![Static Badge](https://img.shields.io/badge/Dev_Team-brightgreen) - Gabriel Luis : 
-   [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/GabrAngelis)
    
 
   
