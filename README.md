@@ -10,7 +10,8 @@
      <a href ="#objetivo">Objetivo</a>  |
      <a href ="#visão-do-produto">Visão do produto</a>  |
      <a href ="#cronograma">Cronograma</a>  |
-     <a href ="#backlog--entregas">Backlog/Entregas</a>  |
+     <a href ="#backlog--produto">Backlog Produto</a>  |
+     <a href ="#documentacao">Documentação</a>  |
      <a href ="#requisitos">Requisitos</a>  |
      <a href ="#tecnologias">Tecnologias</a>  |
      <!--
@@ -47,57 +48,51 @@ A visão do projeto é ser uma aplicação web inovadora em nutrição digital, 
 | Sprint 3 | 03/11/2025 | 23/11/2025 |
 | Review   | 24/11/2025 | 28/11/2025 |
 
-<span id="backlog--entregas">
+<span id="backlog--produto">
    
 ## :pushpin: Product Backlog
 
 <details>
  <summary>Product Backlog</summary>
    
-| ID    | Prioridade | User Story                                                                                                                                                                                                                                                                             | Story Points | Sprint   |
-|-------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|----------|
-| US-01 | Alta       | Como paciente, quero receber recomendações de dieta geradas pela IA com base no meu perfil, para que eu tenha planos personalizados que se encaixem na minha rotina e estilo de vida.                                                                                                   | 9            | Sprint 1 |
-| US-02 | Alta       | Como paciente, quero selecionar entre diferentes agentes de IA especializados em áreas específicas da nutrição, onde cada agente utiliza diferentes bases de dados nutricionais, para receber respostas direcionadas e adequadas ao meu contexto.                                       | 8            | Sprint 1 |
-| US-03 | Alta       | Como administrador, quero visualizar a lista completa de pacientes cadastrados na plataforma, incluindo nome, e-mail e data de registro, para que eu possa gerenciar contas, promovê-las a administradores ou nutricionistas e excluir contas quando necessário.                         | 2            | Sprint 1 |
-| US-04 | Baixa      | Como paciente, quero visualizar a composição nutricional detalhada de cada refeição sugerida, para que eu possa tomar decisões informadas sobre o que consumir.                                                                                                                         | 6            | Sprint 1 |
-| US-05 | Alta       | Como paciente, quero que a IA mantenha o contexto das minhas conversas anteriores, para que eu não precise repetir informações sempre que interajo com o chat.                                                                                                                           | 8            | Sprint 2 |
-| US-06 | Alta       | Como nutricionista, quero fornecer feedback sobre as respostas geradas pela IA, para garantir que as recomendações fornecidas aos pacientes sejam confiáveis, precisas e seguras.                                                                                                        | 8            | Sprint 2 |
-| US-07 | Baixa      | Como paciente, quero que a IA acompanhe minha evolução e ajuste automaticamente meus objetivos nutricionais, para que eu continue motivado e receba recomendações cada vez mais personalizadas e adequadas à minha rotina.                                                               | 8            | Sprint 2 |
-| US-08 | Média      | Como paciente, quero visualizar, editar ou solicitar novas versões das minhas dietas semanais, para que eu tenha controle total sobre meu plano alimentar e possa ajustá-lo caso não esteja satisfeito ou prefira outras opções.                                                           | 5            | Sprint 2 |
-| US-09 | Média      | Como nutricionista, quero visualizar as dietas geradas pela IA para os pacientes e avaliá-las, para garantir que cada plano seja seguro, adequado e personalizado de acordo com as necessidades individuais.                                                                              | 5            | Sprint 2 |
-| US-10 | Média      | Como paciente, quero poder enviar as dietas geradas pela IA para um nutricionista, para garantir que meu plano alimentar seja seguro, adequado e personalizado às minhas necessidades.                                                                                                    | 5            | Sprint 2 |
-| US-11 | Alta       | Como paciente, quero ter controle total sobre minhas informações pessoais, físicas, de saúde e preferências alimentares, para que eu decida o que a IA poderá usar na geração de recomendações.                                                                                         | 3            | Sprint 3 |
-| US-12 | Baixa      | Como nutricionista, quero ter acesso às tabelas e referências nutricionais utilizadas pela IA e poder alterá-las quando necessário, para garantir que as informações fornecidas aos pacientes sejam corretas, confiáveis e atualizadas.                                                  | 4            | Sprint 3 |
-| US-13 | Média      | Como paciente, quero que a IA identifique automaticamente o agente mais adequado para responder minha dúvida, para que eu receba respostas precisas e relevantes mesmo sem saber de qual área da nutrição minha pergunta pertence.                                                        | 7            | Sprint 3 |
-| US-14 | Média      | Como paciente, quero que a IA sugira alterações nos meus dados com base nas informações que compartilho (como mudanças de peso, atividade física ou hábitos), para que meus registros fiquem sempre atualizados.                                                                         | 4            | Sprint 3 |
+| ID     | Prioridade | Descrição                                                                                                                                                                                                                                                                       | Pontos | Sprint   |
+|--------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|----------|
+| US-01  | Alta       | Como paciente, quero receber recomendações de dieta geradas pela IA com base no meu perfil, para que eu tenha planos personalizados que se encaixem na minha rotina e estilo de vida.                                                                                              | 9      | Sprint 1 |
+| US-02  | Alta       | Como administrador, quero visualizar a lista completa de pacientes cadastrados na plataforma, incluindo nome, e-mail e data de registro, para que eu possa gerenciar contas, promovê-las a administradores ou nutricionistas e excluir contas quando necessário.                     | 2      | Sprint 1 |
+| US-03  | Baixa      | Como paciente, quero visualizar a composição nutricional detalhada de cada refeição sugerida, para que eu possa tomar decisões informadas sobre o que consumir.                                                                                                                    | 6      | Sprint 1 |
+| US-04  | Alta       | Como paciente, quero selecionar entre diferentes agentes de IA especializados em Análise Nutricional e Recomendação de Dieta, onde cada agente utiliza diferentes bases de dados nutricionais, para receber respostas direcionadas e adequadas ao meu contexto. | 8      | Sprint 2 |
+| US-05  | Alta       | Como paciente, quero que a IA mantenha o contexto das minhas conversas anteriores, para que eu não precise repetir informações sempre que interajo com o chat.                                                                                                                     | 8      | Sprint 2 |
+| US-06  | Média      | Como paciente, quero visualizar, editar ou solicitar novas versões das minhas dietas semanais, para que eu tenha controle total sobre meu plano alimentar e possa ajustá-lo caso não esteja satisfeito ou prefira outras opções.                                                    | 5      | Sprint 2 |
+| US-07  | Média      | Como paciente, quero poder enviar as dietas geradas pela IA para um nutricionista, para garantir que meu plano alimentar seja seguro, adequado às minhas necessidades.                                                                                                              | 5      | Sprint 2 |
+| US-08  | Baixa      | Como paciente, quero que a IA acompanhe minha evolução e ajuste automaticamente meus objetivos nutricionais, para que eu continue motivado e receba recomendações cada vez mais personalizadas e adequadas à minha rotina.                                                           | 8      | Sprint 2 |
+| US-09  | Alta       | Como nutricionista, quero fornecer feedback sobre as respostas geradas pela IA, para garantir que as recomendações fornecidas aos pacientes sejam confiáveis, precisas e seguras.                                                                                                   | 8      | Sprint 3 |
+| US-10  | Alta       | Como paciente, quero ter controle total sobre minhas informações pessoais, físicas, de saúde e preferências alimentares, para que eu decida o que a IA poderá usar na geração de recomendações.                                                                                     | 3      | Sprint 3 |
+| US-11  | Baixa      | Como nutricionista, quero ter acesso às tabelas e referências nutricionais utilizadas pela IA e poder alterá-las quando necessário, para garantir que as informações fornecidas aos pacientes sejam corretas, confiáveis e atualizadas.                                              | 4      | Sprint 3 |
+| US-12  | Média      | Como paciente, quero que a IA identifique automaticamente o agente mais adequado para responder minha dúvida, para que eu receba respostas precisas e relevantes mesmo sem saber de qual área da nutrição minha pergunta pertence.                                                   | 7      | Sprint 3 |
+| US-13  | Média      | Como paciente, quero que a IA sugira alterações nos meus dados com base nas informações que compartilho (como mudanças de peso, atividade física ou hábitos), para que meus registros fiquem sempre atualizados.                                                                    | 4      | Sprint 3 |
+| US-14  | Baixa      | Como paciente, quero que a IA sugira alterações nos meus dados com base nas informações que compartilho (como mudanças de peso, atividade física ou hábitos), para que meus registros fiquem sempre atualizados.                                                                    | 4      | Sprint 3 |
 
 
 </details>
+
+<span id="documentacao">
+   
+## 📚 Documentação do Projeto
+
 <!--
 <details>
- <summary>Sprint-1 Backlog</summary>
-| Rank | Prioridade | Requisito | Tarefa |
-| --- | --- | --- | --- |
-</details>
-<details>
- <summary>Sprint-2 Backlog</summary>
-| Rank | Prioridade | Requisito | Tarefa |
-| --- | --- | --- | --- |
-</details>
-<details>
- <summary>Sprint-3 Backlog</summary>
-| Rank | Prioridade | Requisito | Tarefa |
-| --- | --- | --- | --- |
-</details>
-<details>
- <summary>Sprint-4 Backlog</summary>
-| Rank | Prioridade | Requisito | Tarefa |
-| --- | --- | --- | --- |
-</details>
--->
+ <summary>Documentação do Projeto</summary>
+ -->
+   
+Este repositório contém a documentação organizada por sprints.  
+Abaixo você encontra os links para cada documentação detalhada:
 
-<!--  
+| Sprint | Período       | Documentação |
+|--------|---------------|--------------|
+| Sprint 1 | 08/09 - 28/09 | [Acessar Documentação](documentation/sprint1/sprint1doc.md) |
+| Sprint 2 | 06/10 - 26/10 | [Acessar Documentação](documentation/sprint2/sprint2doc.md) |
 
+<!--
 ## 🎥 Video Apresentação
 
 <details>
@@ -148,9 +143,17 @@ https://github.com/user-attachments/assets/
 ## Como utilizar
 
 #### Backend
-
+   * Criar um docker container para mongodb:
+   ```
+   docker run -d -p 27017:27017 --name junipymongo mongo:7
+   ```
+   * Rodar o projeto:
+   ```
+   mvn spring-boot:run
+   ```
 #### Frontend
 -->
+
 <span id="equipe">
    
 ## 👥 Equipe:
@@ -193,11 +196,10 @@ https://github.com/user-attachments/assets/
 
 
    ### ![Static Badge](https://img.shields.io/badge/Dev_Team-brightgreen) - Isabel Vitoria : 
+   [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/isabel-reis-09806920b/)
    [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/IsabelRReis)
 
 
    ### ![Static Badge](https://img.shields.io/badge/Dev_Team-brightgreen) - Gabriel Luis : 
+   [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/gabriel-luis-de-angelis/)
    [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/GabrAngelis)
-   
-
-  
