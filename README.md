@@ -70,7 +70,7 @@ A visão do projeto é ser uma aplicação web inovadora em nutrição digital, 
 | US-11  | Baixa      | Como nutricionista, quero ter acesso às tabelas e referências nutricionais utilizadas pela IA e poder alterá-las quando necessário, para garantir que as informações fornecidas aos pacientes sejam corretas, confiáveis e atualizadas.                                              | 4      | Sprint 3 |
 | US-12  | Média      | Como paciente, quero que a IA identifique automaticamente o agente mais adequado para responder minha dúvida, para que eu receba respostas precisas e relevantes mesmo sem saber de qual área da nutrição minha pergunta pertence.                                                   | 7      | Sprint 3 |
 | US-13  | Média      | Como paciente, quero que a IA sugira alterações nos meus dados com base nas informações que compartilho (como mudanças de peso, atividade física ou hábitos), para que meus registros fiquem sempre atualizados.                                                                    | 4      | Sprint 3 |
-| US-14  | Baixa      | Como paciente, quero que a IA sugira alterações nos meus dados com base nas informações que compartilho (como mudanças de peso, atividade física ou hábitos), para que meus registros fiquem sempre atualizados.                                                                    | 4      | Sprint 3 |
+| US-14  | Baixa      | Como paciente, quero que todas as respostas geradas pela IA sejam revisadas por um agente de Conformidade e Ética, para garantir que as recomendações estejam em conformidade com princípios éticos e preservem a integridade das minhas informações, além de assegurar a segurança e adequação das dietas sugeridas.                                                                    | 4      | Sprint 3 |
 
 
 </details>
@@ -91,6 +91,7 @@ Abaixo você encontra os links para cada documentação detalhada:
 |--------|---------------|--------------|
 | Sprint 1 | 08/09 - 28/09 | [Acessar Documentação](documentation/sprint1/sprint1doc.md) |
 | Sprint 2 | 06/10 - 26/10 | [Acessar Documentação](documentation/sprint2/sprint2doc.md) |
+| Sprint 2 | 06/10 - 26/10 | [Acessar Documentação](documentation/sprint3/sprint3doc.md) |
 
 <!--
 ## 🎥 Video Apresentação
