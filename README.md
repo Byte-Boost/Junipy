@@ -137,7 +137,7 @@ https://github.com/user-attachments/assets/
    
 <span id="como-usar">
 
-## Como utilizar
+## 🚀 Como utilizar
 
 Este projeto é composto por três serviços independentes, mas integrados: **AIService_Junipy**, **Backend_Junipy** e **Frontend_Junipy**. Siga os passos abaixo para configurar e executar todos os componentes corretamente.
 
