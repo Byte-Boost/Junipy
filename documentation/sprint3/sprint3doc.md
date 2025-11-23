@@ -42,7 +42,7 @@ Garantir que o sistema de recomendação nutricional baseado em IA opere de form
    
 ## :pushpin: Sprint Backlog
    
-| ID     | Prioridade | Descrição                                                                                                                                                                                                                                                                                                                                                                                                   | Pontos | Sprint   | Meta da Sprint |
+| ID     | Prioridade | Descrição                                                                                                                                                                                                                                                                                                                                                                                                   | Pontos de esforço | Sprint   | Meta da Sprint |
 |--------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|----------|----------------|
 | US-09 | Alta       | Como nutricionista, quero fornecer feedback sobre as respostas geradas pela IA, para garantir que as recomendações fornecidas aos pacientes sejam confiáveis, precisas e seguras.                                                                                                                                                                                                                          | 8      | Sprint 3 | ✔️             |
 | US-10 | Alta       | Como paciente, quero ter controle total sobre minhas informações pessoais, físicas, de saúde e preferências alimentares, para que eu decida o que a IA poderá usar na geração de recomendações.                                                                                                                                                                                                           | 3      | Sprint 3 | ✔️             |
@@ -55,24 +55,20 @@ Garantir que o sistema de recomendação nutricional baseado em IA opere de form
   
 ## 📝 DoR – Definition of Ready
 
-- Objetivo da funcionalidade descrito de forma clara e alinhado com a proposta do agente de nutrição  
-- Critérios de aceitação definidos de forma prática e mensurável  
+- Objetivo da funcionalidade descrito de forma clara e alinhado com a proposta do agente de nutrição   
 - Estimativa de esforço feita em conjunto pelo time  
-- Dados nutricionais e fontes de referência confiáveis validadas pelo time  
-- Fluxo de interação do usuário desenhado  
-- Protótipo de interface definido  
-- Dependências técnicas (APIs de nutrição, bibliotecas de IA) identificadas  
-- Modelagem de Banco de Dados elaborada
+- Dados nutricionais e fontes de referência confiáveis validadas pelo time (<a href="../nutritionalData">Fontes</a>)  
+- Fluxo de interação do usuário desenhado (<a href="../assets/JunipyInteractionFlow.png">JunipyInteractionFlow.png</a>)
+- Dependências técnicas identificadas  
+- Modelagem de Banco de Dados elaborada (<a href="../assets/JunipyDB.png">JunipyDB.png</a>)
 
 <span id="dod">
 
 ## ✅ DoD – Definition of Done
 
 - Código desenvolvido seguindo padrões acordados pelo time  
-- Respostas do agente testadas em cenários simulados e validadas  
-- Testes de aceitação aprovados  
 - Documentação mínima pronta  
-- Protótipo de interface ou fluxo de interação atualizado de acordo com a implementação final  
+- Fluxo de interação atualizado de acordo com a implementação final (<a href="../assets/JunipyInteractionFlow.png">JunipyInteractionFlow.png</a>)
 - Ambiente de execução configurado e instruções de setup disponíveis  
 - Problemas críticos e inconsistências no agente de nutrição corrigidos  
 
