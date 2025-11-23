@@ -57,10 +57,10 @@ Garantir que o sistema de recomendação nutricional baseado em IA opere de form
 
 - Objetivo da funcionalidade descrito de forma clara e alinhado com a proposta do agente de nutrição   
 - Estimativa de esforço feita em conjunto pelo time  
-- Dados nutricionais e fontes de referência confiáveis validadas pelo time (<a href="../nutritionalData">Fontes</a>)  
-- Fluxo de interação do usuário desenhado (<a href="../assets/JunipyInteractionFlow.png">JunipyInteractionFlow.png</a>)
+- Dados nutricionais e fontes de referência confiáveis validadas pelo time (<a href="nutritionalData">Fontes</a>)  
+- Fluxo de interação do usuário desenhado (<a href="assets/JunipyInteractionFlow.png">JunipyInteractionFlow.png</a>)
 - Dependências técnicas identificadas  
-- Modelagem de Banco de Dados elaborada (<a href="../assets/JunipyDB.png">JunipyDB.png</a>)
+- Modelagem de Banco de Dados elaborada (<a href="assets/JunipyDB.png">JunipyDB.png</a>)
 
 <span id="dod">
 
@@ -68,7 +68,7 @@ Garantir que o sistema de recomendação nutricional baseado em IA opere de form
 
 - Código desenvolvido seguindo padrões acordados pelo time  
 - Documentação mínima pronta  
-- Fluxo de interação atualizado de acordo com a implementação final (<a href="../assets/JunipyInteractionFlow.png">JunipyInteractionFlow.png</a>)
+- Fluxo de interação atualizado de acordo com a implementação final (<a href="assets/JunipyInteractionFlow.png">JunipyInteractionFlow.png</a>)
 - Ambiente de execução configurado e instruções de setup disponíveis  
 - Problemas críticos e inconsistências no agente de nutrição corrigidos  
 
