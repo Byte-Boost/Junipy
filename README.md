@@ -14,7 +14,9 @@
      <a href ="#documentacao">Documentação</a>  |
      <a href ="#requisitos">Requisitos</a>  |
      <a href ="#tecnologias">Tecnologias</a>  |
+     <!--
      <a href ="#como-usar">Como usar</a>   |
+     -->
      <a href ="#equipe">Equipe</a>
    </p>
 
@@ -68,7 +70,7 @@ A visão do projeto é ser uma aplicação web inovadora em nutrição digital, 
 | US-11  | Baixa      | Como nutricionista, quero ter acesso às tabelas e referências nutricionais utilizadas pela IA e poder alterá-las quando necessário, para garantir que as informações fornecidas aos pacientes sejam corretas, confiáveis e atualizadas.                                              | 4      | Sprint 3 |
 | US-12  | Média      | Como paciente, quero que a IA identifique automaticamente o agente mais adequado para responder minha dúvida, para que eu receba respostas precisas e relevantes mesmo sem saber de qual área da nutrição minha pergunta pertence.                                                   | 7      | Sprint 3 |
 | US-13  | Média      | Como paciente, quero que a IA sugira alterações nos meus dados com base nas informações que compartilho (como mudanças de peso, atividade física ou hábitos), para que meus registros fiquem sempre atualizados.                                                                    | 4      | Sprint 3 |
-| US-14  | Baixa      | Como paciente, quero que todas as respostas geradas pela IA sejam revisadas por um agente de Conformidade e Ética, para garantir que as recomendações estejam em conformidade com princípios éticos e preservem a integridade das minhas informações, além de assegurar a segurança e adequação das dietas sugeridas.                                                                    | 4      | Sprint 3 |
+| US-14  | Baixa      | Como paciente, quero que a IA sugira alterações nos meus dados com base nas informações que compartilho (como mudanças de peso, atividade física ou hábitos), para que meus registros fiquem sempre atualizados.                                                                    | 4      | Sprint 3 |
 
 
 </details>
@@ -89,7 +91,6 @@ Abaixo você encontra os links para cada documentação detalhada:
 |--------|---------------|--------------|
 | Sprint 1 | 08/09 - 28/09 | [Acessar Documentação](documentation/sprint1/sprint1doc.md) |
 | Sprint 2 | 06/10 - 26/10 | [Acessar Documentação](documentation/sprint2/sprint2doc.md) |
-| Sprint 3 | 03/10 - 23/10 | [Acessar Documentação](documentation/sprint3/sprint3doc.md) |
 
 <!--
 ## 🎥 Video Apresentação
@@ -134,131 +135,24 @@ https://github.com/user-attachments/assets/
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=vscode,github,git&perline=4">
   </a>
-   
+
+
+<!--    
 <span id="como-usar">
 
-## 🚀 Como utilizar
+## Como utilizar
 
-Este projeto é composto por três serviços independentes, mas integrados: **AIService_Junipy**, **Backend_Junipy** e **Frontend_Junipy**. Siga os passos abaixo para configurar e executar todos os componentes corretamente.
-
-<details>
- <summary>Como utilizar</summary>
-
-## ⚙️ 0. Configurações e Pré-requisitos Gerais
-
-Certifique-se de ter instalado:
-
-* **Python 3.8+** e **pip**
-* **Java/JDK** e **Maven (mvn)**
-* **Node.js** e **npm**
-* **Docker** (necessário para o banco de dados MongoDB)
-
----
-
-## 📌 1. Configuração e Execução do Banco de Dados (MongoDB)
-
-O Backend requer uma instância do MongoDB. Use o Docker para iniciar um contêiner rapidamente.
-
-1.  **Crie e Inicie o Contêiner MongoDB:**
-    ```bash
-    docker run -d -p 27017:27017 --name junipymongo mongo:7
-    ```
-
----
-
-## 🧠 2. AIService — FastAPI (Python)
-
-Este é o serviço de Inteligência Artificial.
-
-### **Passos de Configuração**
-
-1.  **Crie e Ative um Ambiente Virtual:**
-    * **Linux/macOS:**
-        ```bash
-        python -m venv venv
-        source venv/bin/activate
-        ```
-    * **Windows:**
-        ```bash
-        python -m venv venv
-        venv\Scripts\activate
-        ```
-
-2.  **Instale as Dependências:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **Configure o Modelo:**
-    * Crie uma cópia do arquivo `.env.example` e renomeie-a para **`.env`** no diretório do projeto.
-    * Preencha o arquivo `.env` com as chaves e configurações necessárias para a API de IA.
-
-### **Execução**
-
-* **Rode o Servidor FastAPI:**
-    ```bash
-    uvicorn main:app --reload
-    ```
-* **Acesso:** O serviço estará disponível em `http://localhost:8000`. A documentação **Swagger** pode ser acessada em `http://localhost:8000/docs`.
-
----
-
-## ☕ 3. Backend — NutritionAgent (Spring Boot)
-
-Este é o servidor de aplicação principal que se conecta ao Frontend, ao AIService e ao MongoDB.
-
-### **Configuração**
-
-1.  **Configure a Conexão com o AIService:**
-    * No arquivo de configurações (geralmente `application.properties` ou `application.yml`, ou variáveis de ambiente), verifique e ajuste a URL base do AIService para `http://localhost:8000`.
-
-### **Execução**
-
-* **Rode o Projeto (com Maven):**
-    ```bash
-    mvn spring-boot:run
-    ```
-* **Acesso:** O Backend estará disponível em `http://localhost:8080`.
-
----
-
-## 💻 4. Frontend — Junipy (Vue 3 + Vite)
-
-Esta é a interface do usuário.
-
-### **Passos de Configuração**
-
-1.  **Instale as Dependências:**
-    ```bash
-    npm install
-    ```
-    > **Recomendação:** Use o **VSCode** com a extensão **Volar** para melhor experiência de desenvolvimento Vue.
-
-### **Execução**
-
-1.  **Rode em Modo Desenvolvimento:**
-    ```bash
-    npm run dev
-    ```
-* **Acesso:** A aplicação estará disponível em `http://localhost:5173`.
-
-### **Build para Produção (Opcional)**
-
-1.  **Gere os Arquivos Estáticos de Produção:**
-    ```bash
-    npm run build
-    ```
-
----
-
-## ✅ Resumo da Ordem de Inicialização
-
-1.  **MongoDB** (Docker)
-2.  **AIService** (Python)
-3.  **Backend** (Java/Spring Boot)
-4.  **Frontend** (Node/Vue)
-
-   </details>
+#### Backend
+   * Criar um docker container para mongodb:
+   ```
+   docker run -d -p 27017:27017 --name junipymongo mongo:7
+   ```
+   * Rodar o projeto:
+   ```
+   mvn spring-boot:run
+   ```
+#### Frontend
+-->
 
 <span id="equipe">
    
