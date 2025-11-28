@@ -75,6 +75,8 @@ Garantir que o sistema de recomendação nutricional baseado em IA opere de form
 <span id="video">
   
 ## 🎥 Video Apresentação
+Clique para assistir o vídeo no Youtube.
+[![Watch the video](https://img.youtube.com/vi/LBNtXZJ68c0/maxresdefault.jpg)](https://youtu.be/LBNtXZJ68c0)
    
 <span id="requisitos">
    
